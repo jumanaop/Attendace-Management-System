@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="9"
+    android:background="@drawable/gradient"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+    <TextView
+        android:id="@+id/tv_invo_sl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/hdr_examid"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_invo_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/hdr_examid"
+        android:visibility="invisible"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_invo_feetype"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="@string/hdr_exam"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_invo_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <!--<TextView
+        android:id="@+id/tv_invo_discount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/hdr_exam"
+        android:textSize="12sp"
+        android:textColor="@color/white" />-->
+
+    <TextView
+        android:id="@+id/tv_invo_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_invo_pay_stat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal"
+    android:background="@drawable/profile_back2"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context="in.example.attendance.LoginActivity1">
+
+    <!-- Login progress -->
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/srs_logo"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edge_et_bg"
+            android:gravity="center"
+            android:hint="@string/username"
+            android:maxLines="1"
+            android:padding="@dimen/text_margin"
+            android:singleLine="true"
+            android:textColor="@color/black">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edge_et_bg"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="@dimen/text_margin"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#C6CBCA">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            style="?android:textAppearanceSmall"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:text="@string/sign_in"
+            android:textColor="#b49272"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

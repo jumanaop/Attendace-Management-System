@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sc"
+    android:orientation="vertical"
+    android:background="@drawable/profile_back2"
+    tools:context=".Media">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:scrollbars="none">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/actionbar_theme"
+               >
+               <Button
+                   android:id="@+id/b_folder1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="#01aaaaaa"
+                   android:text="class"
+
+                   />
+               <ImageView
+                   android:id="@+id/iv_folder1"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center_vertical"
+                   android:visibility="invisible"
+                   android:src="@drawable/arrow"
+
+                   />
+               <Button
+                   android:id="@+id/b_folder2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="#01aaaaaa"
+                   android:text="class"
+                   android:visibility="invisible"
+                   />
+               <ImageView
+                   android:id="@+id/iv_folder2"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/arrow"
+                   android:visibility="invisible"
+                   />
+               <Button
+
+                   android:id="@+id/b_folder3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="#01aaaaaa"
+                   android:text="class"
+                   android:visibility="invisible"
+                   />
+
+
+
+           </LinearLayout>
+       </ScrollView>
+        <GridView
+            android:numColumns="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:columnWidth="100dp"
+            android:dividerHeight="10dp"
+            android:id="@+id/folder">
+
+        </GridView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/add_file"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="New File"
+                android:drawableLeft="@android:drawable/ic_input_add"
+                android:background="@drawable/floder_add_back"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/add_folder"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Add Folder"
+                android:visibility="gone"
+                android:drawableLeft="@android:drawable/ic_input_add"
+                android:background="@drawable/floder_add_back"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

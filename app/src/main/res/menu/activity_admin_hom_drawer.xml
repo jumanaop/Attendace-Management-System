@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/srs_technologies">
+        <menu>
+            <item
+                android:id="@+id/nav_att"
+                android:icon="@drawable/ic_take_att"
+                android:title="Attendance" />
+            <item
+                android:id="@+id/nav_notice"
+                android:icon="@drawable/ic_action_notice"
+                android:title="@string/notice" />
+            <item
+                android:id="@+id/nav_group_sms"
+                android:icon="@drawable/ic_mail24_white"
+                android:title="Group SMS" />
+            <item
+                android:id="@+id/edit_notice"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Edit Notice" />
+            <item
+                android:id="@+id/nav_assign"
+                android:icon="@drawable/ic_library_books"
+                android:title="Assignment" />
+            <item
+                android:id="@+id/change_password"
+                android:icon="@drawable/ic_logout"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:padding="15dp"
+    android:background="@drawable/hdr_list_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/hdr_invo_sl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="No"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/hdr_invo_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:text="@string/hdr_id"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/hdr_invo_feetype"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="3"
+        android:text="Fee Type"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/hdr_invo_amount"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="Amount"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+    <!--<TextView
+        android:id="@+id/hdr_invo_discount"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="Discount"
+        android:textSize="12sp"
+        android:textColor="@color/white" />-->
+
+    <TextView
+        android:id="@+id/hdr_invo_date"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="2"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/hdr_invo_status"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="2"
+        android:text="Status"
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

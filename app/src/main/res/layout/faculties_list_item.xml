@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="16"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_fac_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_fac_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/hdr_exam"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_fac_designation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tv_fac_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:text="@string/date"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

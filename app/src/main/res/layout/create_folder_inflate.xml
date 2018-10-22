@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_gravity="center"
+android:background="@android:drawable/screen_background_dark_transparent"
+
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_gravity="top"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/sms"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:inputType="textMultiLine"
+            android:maxLength="160"
+           android:text="Create Folder"/>
+      <EditText
+          android:id="@+id/folder_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Folder Name"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="2dp"
+                android:text="Cancel"
+                android:textColor="#ffffff"
+                android:background="@drawable/hover_b"
+                android:id="@+id/cancel"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Create Folder"
+                android:textColor="#ffffff"
+                android:background="@drawable/hover_b"
+                android:layout_marginLeft="2dp"
+
+                android:id="@+id/create"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
